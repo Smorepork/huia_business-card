@@ -1,0 +1,57 @@
+*{
+    font-family: "Roboto",sans-serif;
+    box-sizing: border-box;
+p {
+    font-style: Thin100;
+
+}
+img {
+    object-fit: cover;
+}
+.quote {font-style:italic}
+        font-weight: lighter;
+}
+ul {
+    font-size:small;
+}
+.header {
+    background-color: white;
+    color: black;
+}
+ul { list-style: none;}
+body {
+
+    color:#000000;
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+
+}
+.logo_header {
+    max-width: 100px;
+}
+.header {
+    display:flex;
+    justify-content: space-between;
+}
+.introduction {
+    display:flex;
+    
+    justify-content: space-around;
+    gap: 18px;
+}
+.boulderboy{
+    object-fit:cover;
+   height: 100%;
+    max-width: 40%;
+    border-radius: 25px;
+
+}
+h2 {
+    text-align: center;
+}
+.activities{
+    display: flex;
+    justify-content: center;
+
+}
