@@ -1,57 +1,107 @@
 *{
-    font-family: "Roboto",sans-serif;
-    box-sizing: border-box;
-p {
-    font-style: Thin100;
+    font-family: roboto;sans-serif;
+    /* color: rgb(235, 235, 235); */
+
+
 
 }
-img {
-    object-fit: cover;
-}
-.quote {font-style:italic}
-        font-weight: lighter;
-}
-ul {
-    font-size:small;
+body {
+    background-image: url("images/gregory-hayes-HO_unFmoRp0-unsplash.jpg");
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(61, 60, 60);
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+
+  
+
 }
 .header {
+    color:black;
+    box-sizing: border-box;
     background-color: white;
-    color: black;
-}
-ul { list-style: none;}
-body {
-
-    color:#000000;
-    background-color: white;
-    display:flex;
-    flex-direction:column;
+    border-radius: 50px;
+    border-color: orange;
+    padding: 5px;
+    padding-left: 24px;
+    position: fixed;
+    top: 30px;
+    width: 50%;
 
 }
-.logo_header {
-    max-width: 100px;
+h1 {
+    font-weight:900;
+
 }
+a {
+    list-style: none;
+    text-decoration: none;
+    margin: 16px;
+    color:black;
+    font-weight: 700;
+}
+
 .header {
     display:flex;
     justify-content: space-between;
+    align-items: center;
+    width: 50%;
+
 }
-.introduction {
+
+
+
+.logo-header {
+    max-height: 60px;
+    max-width: auto;
+}
+.welcome {
     display:flex;
-    
-    justify-content: space-around;
-    gap: 18px;
-}
-.logo_large{
-    object-fit:cover;
-   height: 100%;
-    max-width: 40%;
-    border-radius: 25px;
-
-}
-h2 {
-    text-align: center;
-}
-.activities{
-    display: flex;
     justify-content: center;
+    align-items: center;
+   
 
+}
+.welcome {
+    gap: 36px;
+    background-color: white;
+    color:black;
+    width: 50%;
+    border-radius: 50px;
+    margin-top: 160px;
+}
+.welcome-text{
+    max-width: 300px;
+    font-size: 24px;
+
+}
+.about {
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+}
+.container-about {
+    display:flex;
+    justify-content: center;
+    gap: 60px;
+}
+.about-pic {
+    width:100px;
+    height:100px;
+    object-fit: cover;
+}
+    
+.quote {
+    color: white;
+    font-style: italic;
+    font-size: 50px;
+    width: 50%;
+}
+.copyright {
+    background-color: black;
+    color:orange;
+    width: 100%;
 }
